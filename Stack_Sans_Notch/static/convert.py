@@ -1,8 +1,8 @@
 from fontTools.ttLib import TTFont
 
 # Replace with your actual TTF filename
-input_font = "my-font.ttf"
-output_font = "my-font.woff2"
+input_font = "StackSansNotch-Regular.ttf"
+output_font = "StackSansNotch-Regular.woff2"
 
 # Load the TTF font and save it as WOFF2
 font = TTFont(input_font)
