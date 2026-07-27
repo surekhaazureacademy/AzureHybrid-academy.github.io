@@ -29,6 +29,7 @@ a{
 }
 a:hover{
   font-size: 35px;
+  background-color: Navy;
 }
 p{
   font-family: 'StackSansNotch';
