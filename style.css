@@ -20,6 +20,7 @@ header{
   top: 0;
   z-index: 1000;
   overflow: visible;
+  gap: 25px;
 }
 a{
   font-family: 'StackSansNotch';
