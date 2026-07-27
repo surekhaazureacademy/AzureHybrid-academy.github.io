@@ -24,11 +24,12 @@ a{
   text-decoration: none;
   color: AliceBlue;
   padding: 10px;
+  font-size: 30px;
 }
 a:hover{
-  font-size: 26px;
+  font-size: 35px;
 }
 p{
   color: AliceBlue;
-  font-size: 26px;
+  font-size: 35px;
 }
