@@ -21,6 +21,7 @@ header{
   z-index: 1000;
 }
 a{
+  font-family: 'StackSansNotch';
   text-decoration: none;
   color: AliceBlue;
   padding: 10px;
@@ -30,6 +31,7 @@ a:hover{
   font-size: 35px;
 }
 p{
+  font-family: 'StackSansNotch';
   color: AliceBlue;
   font-size: 35px;
 }
