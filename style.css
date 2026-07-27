@@ -19,6 +19,7 @@ header{
   position: sticky;
   top: 0;
   z-index: 1000;
+  overflow: visible;
 }
 a{
   font-family: 'StackSansNotch';
@@ -34,4 +35,28 @@ p{
   font-family: 'StackSansNotch';
   color: AliceBlue;
   font-size: 35px;
+}
+.dropdown_menu{
+  position: relative;
+  display: inline-block;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width:200px;
+  background-color: SteelBlue;
+  z-index: 999;
+}
+.dropdown_content a{
+  color: OldLace;
+  text-decoration: none;
+  display: block;
+}
+.dropdown_content a hover{
+  font_size: 35px;
+}
+.dropdown_menu:hover .dropdown_content {
+  display: block;
 }
