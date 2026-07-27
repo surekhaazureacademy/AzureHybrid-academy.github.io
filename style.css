@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'StackSansNotch';
-  src: url('/Stack_Sans_Notch/static/StackSansNotch-Regular.ttf') format('truetype');
+  src: url('StackSansNotch-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
