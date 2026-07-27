@@ -1,0 +1,66 @@
+site_name: Surekha Azure Hybrid Academy
+site_description: Azure Administration, Hybrid Cloud, Terraform and Enterprise Cloud Projects
+site_author: Surekha Azure Hybrid Academy
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+
+
+nav:
+
+  - Home:
+      - Welcome: index.md
+
+
+  - ☁️ AZ-900 Azure Fundamentals:
+      - Introduction: az900/introduction.md
+
+
+  - 🖥️ AZ-104 Azure Administrator:
+      - Introduction: az104/introduction.md
+      - Identity Management: az104/identity.md
+      - Storage: az104/storage.md
+      - Virtual Machines: az104/virtual-machines.md
+      - Networking: az104/networking.md
+
+
+  - 🌐 AZ-800 Hybrid Administrator:
+      - Introduction: az800/introduction.md
+
+
+  - ⚙️ Terraform on Azure:
+      - Introduction: terraform/introduction.md
+
+
+plugins:
+  - search
