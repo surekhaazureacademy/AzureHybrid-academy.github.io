@@ -1,8 +1,9 @@
-.stack-sans-notch-<uniquifier> {
-  font-family: "Stack Sans Notch", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+@font-face {
+  font-family: 'StackSansNotch';
+  src: url('/Stack_Sans_Notch/static/StackSansNotch-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 *{
   margin: 0;
