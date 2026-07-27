@@ -5,20 +5,20 @@
 }
 header{
   padding: 30px;
-  background-color: #191970;
+  background-color: MidnightBlue;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 a{
   text-decoration: none;
-  color: #FOF8FF;
+  color: AliceBlue;
   padding: 10px;
 }
 a:hover{
   font-size: 26px;
 }
 p{
-  color: #FOF8FF;
+  color: AliceBlue;
   font-size: 26px;
 }
