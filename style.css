@@ -10,3 +10,15 @@ header{
   flex-direction: row;
   justify-content: space-between;
 }
+a{
+  text-decoration: none;
+  color: #FOF8FF;
+  padding: 10px;
+}
+a:hover{
+  font-size: 26px;
+}
+p{
+  color: #FOF8FF;
+  font-size: 26px;
+}
