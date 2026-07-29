@@ -63,3 +63,12 @@ p{
 .dropdown_menu:hover .dropdown_content {
   display: block;
 }
+.banner{
+  background-image: url("");
+  width:95%;
+  border: solid;
+  border-color: MidnightBlue;
+  border-radius: 5rem;
+  border-width:10px;
+  margin: auto;
+}
