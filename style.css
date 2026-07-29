@@ -33,7 +33,7 @@ a:hover{
   font-size: 35px;
   background-color: Navy;
 }
-p{
+header p{
   font-family: 'StackSansNotch';
   color: AliceBlue;
   font-size: 35px;
@@ -86,4 +86,10 @@ p{
   z-index: 2;
   color: AliceBlue;
   text-align: center;
+}
+.banner p{
+  font-family: Garamond;
+}
+.banner h1{
+  font-family: 'StackSansNotch';
 }
