@@ -132,3 +132,8 @@ header p{
 .next-button {
   right: 10px;
 }
+@media (max-width: 768px) {
+  .video-slide {
+    flex: 0 0 100%;
+  }
+}
